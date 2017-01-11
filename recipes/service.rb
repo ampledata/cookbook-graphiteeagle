@@ -22,7 +22,7 @@ graphiteeagle_path = File.join(
 service_cmd = [
   graphiteeagle_path,
   '-c', node['graphiteeagle']['carbon_host'],
-  '-e', node['graphiteeagle']['eagle_host']
+  '-e', node['graphiteeagle']['eagle_host'],
   '-i', node['graphiteeagle']['interval']
 ].join(' ')
 

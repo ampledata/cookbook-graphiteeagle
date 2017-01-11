@@ -10,5 +10,4 @@
 #
 
 include_recipe 'graphiteeagle::service'
-include_recipe 'graphiteeagle::config'
 include_recipe 'graphiteeagle::app'
